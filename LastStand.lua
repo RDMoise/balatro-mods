@@ -74,7 +74,8 @@ function SMODS.INIT.LastStand()
             },
         },
 	}
-	G.CHALLENGES[#G.CHALLENGES + 1] = c
+	G.CHALLENGES[1] = c
+	-- G.CHALLENGES[#G.CHALLENGES + 1] = c
     -- Localization
     G.localization.misc.challenge_names.c_laststand = "Last Stand"
     G.localization.misc.v_text.ch_c_last_stand_rule1 = {

@@ -120,7 +120,7 @@ function SMODS.INIT.legendaryChallenges ()
     G.localization.misc.challenge_names.c_mod_bankrupt = "Bankrupt"
 
 
-    table.insert(G.CHALLENGES,4,{
+    table.insert(G.CHALLENGES,#G.CHALLENGES+1,{
         name = "Anti-Medusa",
         id = "c_mod_antiMedusa",
 		
@@ -159,7 +159,7 @@ function SMODS.INIT.legendaryChallenges ()
     G.localization.misc.challenge_names.c_mod_antiMedusa = "Anti-Medusa"
 
     
-    table.insert(G.CHALLENGES,5,{
+    table.insert(G.CHALLENGES,#G.CHALLENGES+1,{
         name = "Overpowered Boss",
         id = 'c_mod_overpoweredboss',
         rules = {

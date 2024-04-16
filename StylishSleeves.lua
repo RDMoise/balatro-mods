@@ -40,7 +40,8 @@ function SMODS.INIT.StylishSleeves()
 			type = "Challenge Deck",
 		}
 	}
-	G.CHALLENGES[#G.CHALLENGES + 1] = c
+	-- G.CHALLENGES[#G.CHALLENGES + 1] = c
+	G.CHALLENGES[1] = c
 
 	Game.start_run_ref = Game.start_run
 	function Game:start_run(args)

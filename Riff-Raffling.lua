@@ -13,7 +13,7 @@ function SMODS.INIT.FTV ()
     local challenges = G.CHALLENGES
 	G.localization.misc.challenge_names["c_mod_ftv_ftv"] = "Riff-Raffling"
     
-    table.insert(G.CHALLENGES,#G.CHALLENGES+1,{
+    table.insert(G.CHALLENGES,1,{
         name = 'Riff-Raffling',
         id = 'c_mod_ftv_ftv',
         rules = {
